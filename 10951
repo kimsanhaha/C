@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main(void) {
+  int n;
+  int k;
+  int sum;
+  scanf("%d %d", &n, &k );
+  sum=n+k;
+  printf("%d",sum);
+  
+}
