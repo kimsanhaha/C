@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main( ) {
+  int a;
+  int b;
+  int c;
+  int sum;
+
+  scanf("%d %d", &a,&b);
+  scanf("%d", &c);
+  sum=b+c;
+  
+  if(sum>=60){
+   a=a+sum/60;
+   b=sum%60;
+    if(a>23){
+      a=0;
+    }
+  }
+  printf("%d %d", a,b); 
+  return 0;
+}
