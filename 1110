@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main(){
+    int a=0;
+    int b=0;
+    int p=0;
+    int r=0;
+    int c=0;
+
+    while(a*10+b!=r){
+    scanf("%d %d", a,b);
+    p=(a+b)%10;
+    r=b*10+p;
+  
+    c=c+1;
+    }
+
+    printf("%d", c );    
+}
